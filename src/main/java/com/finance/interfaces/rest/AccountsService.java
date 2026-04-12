@@ -1,7 +1,6 @@
 package com.finance.interfaces.rest;
 
-import com.finance.controller.AccountsApi;
-import com.finance.dto.AccountDto;
+import com.finance.interfaces.dto.AccountDto;
 import com.finance.domain.port.IServiceStoragePort;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

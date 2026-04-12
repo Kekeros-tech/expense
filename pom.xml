@@ -108,9 +108,9 @@
 								</additionalModelTypeAnnotations>
 								<generatedConstructorWithRequiredArgs>false</generatedConstructorWithRequiredArgs>
 								<openApiNullable>false</openApiNullable>
-								<modelPackage>com.finance.dto</modelPackage>
+								<apiPackage>com.finance.interfaces.rest</apiPackage>
+								<modelPackage>com.finance.interfaces.dto</modelPackage>
 								<sourceFolder>.</sourceFolder>
-								<apiPackage>com.finance.controller</apiPackage>
 							</configOptions>
 						</configuration>
 					</execution>

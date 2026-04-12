@@ -1,6 +1,6 @@
 package com.finance.domain.port;
 
-import com.finance.dto.AccountDto;
+import com.finance.interfaces.dto.AccountDto;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
 package com.finance.infrastructure.storage;
 
 import com.finance.domain.port.IServiceStoragePort;
-import com.finance.dto.AccountDto;
-import com.finance.dto.AccountStatusEnum;
-import com.finance.dto.AccountTypeEnum;
+import com.finance.interfaces.dto.AccountDto;
+import com.finance.interfaces.dto.AccountStatusEnum;
+import com.finance.interfaces.dto.AccountTypeEnum;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
