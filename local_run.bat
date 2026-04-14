@@ -9,7 +9,6 @@ if not defined APP_JAR (
 if not defined LOG_PATH (
     set "LOG_PATH=.\.logs"
 )
-echo %SERVICE_NAME%
 if not exist "%LOG_PATH%" (
     mkdir "%LOG_PATH%"
 )
