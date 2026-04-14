@@ -2,7 +2,6 @@
 setlocal
 cd /d "%~dp0"
 :: ================= Settings =================
-set "SERVICE_NAME=financial-backend"
 if not defined APP_JAR (
     set "APP_JAR=target\expense-0.0.1-SNAPSHOT.jar"
 )
