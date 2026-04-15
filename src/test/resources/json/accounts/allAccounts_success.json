@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Пиво",
+    "type": "checking",
+    "balance": 125000,
+    "currency": "RUB",
+    "status": "active",
+    "icon": "piggy-bank"
+  }
+]

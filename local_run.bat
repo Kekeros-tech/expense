@@ -5,12 +5,6 @@ cd /d "%~dp0"
 if not defined APP_JAR (
     set "APP_JAR=target\expense-0.0.1-SNAPSHOT.jar"
 )
-if not defined LOG_PATH (
-    set "LOG_PATH=.\.logs"
-)
-if not exist "%LOG_PATH%" (
-    mkdir "%LOG_PATH%"
-)
 set "JAVA_OPTS=-Xms512m -Xmx1024m -XX:+UseG1GC -Dfile.encoding=UTF-8"
 :: =============================================
 

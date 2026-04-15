@@ -28,7 +28,7 @@ public class DevStoragePortAdapter implements IServiceStoragePort {
                 .name("Пиво")
                 .type(AccountTypeEnum.CHECKING)
                 .balance(125000L)
-                .currency("₽")
+                .currency("RUB")
                 .status(AccountStatusEnum.ACTIVE)
                 .icon("piggy-bank")
                 .build()
