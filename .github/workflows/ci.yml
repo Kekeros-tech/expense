@@ -63,3 +63,16 @@ jobs:
           name: Maven Tests
           path: target/surefire-reports/TEST-*.xml
           reporter: java-junit
+
+      - name: Code coverage to PR
+        id: jacoco
+        uses: madrapps/jacoco-report@v1.6.1
+        with:
+          paths: |
+            ${{ github.workspace }}/.coverage-reports/jacoco.xml
+          token: ${{ secrets.GITHUB_TOKEN }}
+          min-coverage-overall: 60
+          min-coverage-changed-files: 70
+          title: '## 📊 Coverage Report'
+          pass-emoji: ✅
+          fail-emoji: ❌

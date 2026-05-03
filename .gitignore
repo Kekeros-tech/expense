@@ -34,3 +34,6 @@ build/
 
 ### Logs ###
 /.logs/
+
+### Code coverage ###
+/.coverage-reports/
